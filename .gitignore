@@ -1,0 +1,23 @@
+# Downloaded benchmark data (retrieve from Hugging Face)
+/train.csv
+/validation_input.csv
+/forecast_index_validation.csv
+/gitattributes
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Temporary files and future model artifacts
+/tmp/
+/checkpoints/
+*.pt
+*.pth
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
