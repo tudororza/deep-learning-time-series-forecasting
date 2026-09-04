@@ -1,0 +1,51 @@
+{
+  "lstm": {
+    "temperature_mae": 2.7061920166015625,
+    "temperature_rmse": 3.4419918060302734,
+    "humidity_mae": 8.903128623962402,
+    "humidity_rmse": 11.744616508483887,
+    "mean_normalized_mae": 0.430807888507843
+  },
+  "last": {
+    "temperature_mae": 2.7192323207855225,
+    "temperature_rmse": 3.711771249771118,
+    "humidity_mae": 11.16923999786377,
+    "humidity_rmse": 15.126180648803711,
+    "mean_normalized_mae": 0.5008346438407898
+  },
+  "daily": {
+    "temperature_mae": 2.431619167327881,
+    "temperature_rmse": 3.2022252082824707,
+    "humidity_mae": 9.883979797363281,
+    "humidity_rmse": 12.990717887878418,
+    "mean_normalized_mae": 0.44468605518341064
+  },
+  "weekly": {
+    "temperature_mae": 4.565248489379883,
+    "temperature_rmse": 5.703548431396484,
+    "humidity_mae": 12.157082557678223,
+    "humidity_rmse": 15.521800994873047,
+    "mean_normalized_mae": 0.6392771005630493
+  },
+  "split": {
+    "train": "2009-2014",
+    "validation": "2015",
+    "test": "2016",
+    "test_windows": 366
+  },
+  "training": {
+    "best_epoch": 12,
+    "validation_normalized_mae": 0.4285084009170532,
+    "elapsed_seconds": 46.91742968499966,
+    "batch_size": 256,
+    "device": {
+      "selected": "cpu",
+      "torch_version": "2.9.1+cpu",
+      "cuda_available": false,
+      "hip_version": null,
+      "device_name": null,
+      "tests_passed": true,
+      "error": null
+    }
+  }
+}

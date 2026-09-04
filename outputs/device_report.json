@@ -1,0 +1,9 @@
+{
+  "selected": "cpu",
+  "torch_version": "2.9.1+cpu",
+  "cuda_available": false,
+  "hip_version": null,
+  "device_name": null,
+  "tests_passed": true,
+  "error": null
+}

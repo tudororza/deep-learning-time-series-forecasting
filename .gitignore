@@ -3,6 +3,7 @@
 /validation_input.csv
 /forecast_index_validation.csv
 /gitattributes
+/data/
 
 # Python caches and local environments
 __pycache__/
@@ -16,6 +17,11 @@ venv/
 /checkpoints/
 *.pt
 *.pth
+/submission/
+*.zip
+/dist/
+/outputs/lstm_smoke.csv
+/outputs/jena_smoke_results.json
 
 # Editor and operating-system files
 .idea/

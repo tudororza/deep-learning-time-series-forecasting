@@ -1,0 +1,26 @@
+{
+  "dataset": "benchmark",
+  "train_path": "train.csv",
+  "validation_input_path": "validation_input.csv",
+  "forecast_index_path": "forecast_index_validation.csv",
+  "checkpoint_path": "checkpoints/benchmark_target_only.pt",
+  "predictions_path": "outputs/lstm_target_only.csv",
+  "variant": "target_only",
+  "history_length": 168,
+  "forecast_horizon": 24,
+  "validation_horizon": 336,
+  "stride": 6,
+  "hidden_size": 64,
+  "embedding_dim": 8,
+  "dropout": 0.1,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 30,
+  "patience": 5,
+  "gradient_clip": 1.0,
+  "seed": 42,
+  "num_workers": 0,
+  "retrain_full": false
+}
+

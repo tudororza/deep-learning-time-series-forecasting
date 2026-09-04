@@ -1,0 +1,24 @@
+{
+  "split": "last 336 hours of public train.csv",
+  "metric": "wape",
+  "baselines": {
+    "last": 0.5450398644445855,
+    "daily": 0.4180055960109344,
+    "weekly": 0.45487561951237077,
+    "weekly_mean": 0.34178029421841183
+  },
+  "target_only_lstm": {
+    "best_epoch": 10,
+    "wape": 0.3832635378373065,
+    "training_seconds": 207.12560291400223
+  },
+  "full_lstm": {
+    "best_epoch": 12,
+    "wape": 0.24129269974634804,
+    "selection_seconds": 256.323003649999,
+    "retrain_seconds": 199.3511451580016,
+    "retrained_on_all_public_data": true
+  },
+  "device": "cpu",
+  "seed": 42
+}

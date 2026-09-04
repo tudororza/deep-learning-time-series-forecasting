@@ -1,0 +1,21 @@
+{
+  "dataset": "jena",
+  "data_path": "data/jena_climate_2009_2016.csv",
+  "checkpoint_path": "checkpoints/jena.pt",
+  "results_path": "outputs/jena_results.json",
+  "history_length": 168,
+  "forecast_horizon": 24,
+  "stride": 6,
+  "hidden_size": 64,
+  "embedding_dim": 8,
+  "dropout": 0.1,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 30,
+  "patience": 5,
+  "gradient_clip": 1.0,
+  "seed": 42,
+  "num_workers": 0
+}
+
